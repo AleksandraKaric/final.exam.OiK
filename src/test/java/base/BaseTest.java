@@ -28,5 +28,10 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/login");
     }
+    @After
+    public void tearDown(){
+        driver.close(); // zatvara tab koji je trenutno u fokusu
+        //driver.quit();  // zatvara ceo browser
+    }
 
 }
