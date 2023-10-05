@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -18,10 +19,15 @@ public class BaseTest {
     public static Actions actions;
     @Before
     public void setUp(){
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions co = new ChromeOptions();
-        co.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver( co );
+       // WebDriverManager.firefoxdriver().setup();
+       // WebDriver driver = new FirefoxDriver();
+       //WebDriverManager.chromedriver().setup();
+       //ChromeOptions co = new ChromeOptions();
+      // co.addArguments("--remote-allow-origins=*");
+       //driver = new ChromeDriver( co );
+
+        WebDriver driver = new ChromeDriver();
+
         wdWait = new WebDriverWait(driver, Duration.ofSeconds(25));
         actions = new Actions(driver);
 
@@ -30,7 +36,7 @@ public class BaseTest {
     }
     @After
     public void tearDown(){
-        driver.close(); // zatvara tab koji je trenutno u fokusu
+        //driver.close(); // zatvara tab koji je trenutno u fokusu
         //driver.quit();  // zatvara ceo browser
     }
 

@@ -27,5 +27,11 @@ public class LoginTest extends BaseTest {
             Assert.assertTrue(secureAreaPage.succesfullLoginMessageIsDisplayed());
             Assert.assertEquals("You logged into a secure area!", secureAreaPage.successfulLoginMessageGetText());
         }
+        @Test
+        public void loginLeavingTheMandatoryFieldsEmpty(){
+            loginPage.loginButtonClick();
+            Assert.assertTrue(loginPage.usernameInvalidFlashMessageIsDisplayed());
+            Assert.assertEquals("Your username is invalid!", loginPage.usernameInvalidFlashMessageGetText());
+        }
 
 }
