@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e04b120f-4245-4670-91ca-9241a4ab0c6f" name="Changes" comment="" />
+    <list default="true" id="e04b120f-4245-4670-91ca-9241a4ab0c6f" name="Changes" comment="&quot;You logged into a secure area!\n×&quot;&#10;&#10;added to the assertion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginTest.successfulLogin">
+  <component name="RunManager" selected="JUnit.LoginTest.loginLeavingTheMandatoryFieldsEmpty">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final.exam.OiK" />
       <extension name="coverage">
@@ -110,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.successfulLogin" />
         <item itemvalue="JUnit.LoginTest.loginLeavingTheMandatoryFieldsEmpty" />
+        <item itemvalue="JUnit.LoginTest.successfulLogin" />
         <item itemvalue="JUnit.LoginTest" />
       </list>
     </recent_temporary>
@@ -174,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729961530746</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;You logged into a secure area!\n×&quot;&#10;&#10;added to the assertion">
+      <created>1729962255018</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729962255018</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;You logged into a secure area!\n×&quot;&#10;&#10;added to the assertion">
+      <created>1729962265118</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729962265118</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +227,8 @@
     <MESSAGE value="add WebDriver, WebDriverWait, Actions, and annotations @Before and @After" />
     <MESSAGE value="delet annotation @After" />
     <MESSAGE value="Made change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made change" />
+    <MESSAGE value="&quot;You logged into a secure area!\n×&quot;&#10;&#10;added to the assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;You logged into a secure area!\n×&quot;&#10;&#10;added to the assertion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
