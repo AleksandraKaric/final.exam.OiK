@@ -21,12 +21,12 @@ public class BaseTest {
     public void setUp(){
        // WebDriverManager.firefoxdriver().setup();
        // WebDriver driver = new FirefoxDriver();
-       //WebDriverManager.chromedriver().setup();
-       //ChromeOptions co = new ChromeOptions();
-      // co.addArguments("--remote-allow-origins=*");
-       //driver = new ChromeDriver( co );
+       WebDriverManager.chromedriver().setup();
+       ChromeOptions co = new ChromeOptions();
+       co.addArguments("--remote-allow-origins=*");
+       driver = new ChromeDriver( co );
 
-        WebDriver driver = new ChromeDriver();
+       // WebDriver driver = new ChromeDriver();
 
         wdWait = new WebDriverWait(driver, Duration.ofSeconds(25));
         actions = new Actions(driver);
