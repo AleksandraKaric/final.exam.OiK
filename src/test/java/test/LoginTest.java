@@ -25,7 +25,7 @@ public class LoginTest extends BaseTest {
             loginPage.passwordInputFieldSendKeys("SuperSecretPassword!");
             loginPage.loginButtonClick();
             Assert.assertTrue(secureAreaPage.succesfullLoginMessageIsDisplayed());
-            Assert.assertEquals("You logged into a secure area!", secureAreaPage.successfulLoginMessageGetText());
+            Assert.assertEquals("You logged into a secure area!\n×", secureAreaPage.successfulLoginMessageGetText());
         }
         @Test
         public void loginLeavingTheMandatoryFieldsEmpty(){

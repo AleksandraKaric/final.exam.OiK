@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e04b120f-4245-4670-91ca-9241a4ab0c6f" name="Changes" comment="delet annotation @After" />
+    <list default="true" id="e04b120f-4245-4670-91ca-9241a4ab0c6f" name="Changes" comment="Made change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,8 +114,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoginTest.successfulLogin" />
-        <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.loginLeavingTheMandatoryFieldsEmpty" />
+        <item itemvalue="JUnit.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693666548830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made change">
+      <created>1696511074182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696511074182</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +177,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -176,16 +197,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add WebDriver, WebDriverWait, Actions, and annotations @Before and @After" />
     <MESSAGE value="delet annotation @After" />
-    <option name="LAST_COMMIT_MESSAGE" value="delet annotation @After" />
+    <MESSAGE value="Made change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/test/LoginTest.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
