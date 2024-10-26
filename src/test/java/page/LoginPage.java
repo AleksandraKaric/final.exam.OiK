@@ -40,11 +40,11 @@ public class LoginPage extends BaseTest {
 
     public boolean usernameInvalidFlashMessageIsDisplayed (){
         wdWait.until(ExpectedConditions.visibilityOf(usernameInvalidFlashMessage));
-        return usernameInputField.isDisplayed();
+        return usernameInvalidFlashMessage.isDisplayed();
     }
     public String usernameInvalidFlashMessageGetText () {
         wdWait.until(ExpectedConditions.visibilityOf(usernameInvalidFlashMessage));
-        return usernameInputField.getText();
+        return usernameInvalidFlashMessage.getText();
     }
 
 

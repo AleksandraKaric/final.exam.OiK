@@ -31,7 +31,7 @@ public class LoginTest extends BaseTest {
         public void loginLeavingTheMandatoryFieldsEmpty(){
             loginPage.loginButtonClick();
             Assert.assertTrue(loginPage.usernameInvalidFlashMessageIsDisplayed());
-            Assert.assertEquals("Your username is invalid!", loginPage.usernameInvalidFlashMessageGetText());
+            Assert.assertEquals("Your username is invalid!\n×", loginPage.usernameInvalidFlashMessageGetText());
         }
 
 }
