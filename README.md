@@ -11,8 +11,8 @@ Selenium WebDriver: Tool used to automate web browser interactions.
 
 JUnit: Framework for managing test cases and assertions.
 
-Maven: Build automation tool for dependency management and project configuration
-.
+Maven: Build automation tool for dependency management and project configuration.
+
 Page Object Model (POM): Design pattern to improve code readability and maintainability.
 
 
